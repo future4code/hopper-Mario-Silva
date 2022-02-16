@@ -31,7 +31,7 @@ function imprimeIdade() {
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
-
+return calculaIMC = peso / (altura*altura)
 }
 
 // EXERCÍCIO 04
@@ -56,6 +56,7 @@ function retornaStringEmMaiuscula(string) {
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
+  return calculaIngressosEspetaculo = custo / valorIngresso
 
 }
 
