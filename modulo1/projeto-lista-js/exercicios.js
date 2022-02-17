@@ -104,8 +104,8 @@ return array[array.length -1]
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
-
-
+  function trocaPrimeiroEUltimo(array) {
+   
 
 }
 
