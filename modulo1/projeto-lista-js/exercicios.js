@@ -91,7 +91,7 @@ function checaStringsMesmoTamanho(string1, string2) {
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
-return array[0]
+ return array[0]
 
 }
 
@@ -104,10 +104,10 @@ return array[array.length -1]
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
-  function trocaPrimeiroEUltimo(array) {
-   
-
+  
 }
+
+
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
