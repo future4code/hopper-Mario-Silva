@@ -102,18 +102,37 @@ return array[array.length -1]
 }
 
 // EXERCÍCIO 11
+
+//Escreva uma função que recebe um array e retorna um array com o primeiro e o último elemento trocados.
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+  let posInic = array[0]// 1
+  let posFinal = array[array.length -1] // 5
+  array[0] = array[array.length-1] // 5
+  array[array.length-1] = posInic // 1
+
+  return array
+  
   
 }
 
-
-
 // EXERCÍCIO 12
+// Escreva uma função que recebe duas strings e retorna um booleano (true ou false) indicando se
+// elas são iguais, desconsiderando letras maiúsculas ou minúsculas.
+
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
+  
+
+ 
+  const m = string1.toUpperCase()
+  const m2 = string2.toUpperCase()
+  const comp = m === m2
+  return comp
+
+
   // implemente sua lógica aqui
 
 }
+console.log(checaIgualdadeDesconsiderandoCase)
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
