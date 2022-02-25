@@ -64,7 +64,7 @@
 
 // 1
  
-// const idade = prompt("Qual a sua idade?")
+// const idade = Number(prompt("Qual a sua idade?"))
 // const valorDaIdade = idade
 
 // if (valorDaIdade >= 18) 
