@@ -1,0 +1,13 @@
+1 - Compreender o enunciado, prestando atenção no que meu código deve fazer e que informações devo usar.
+
+2 - Destacar palvaras chaves que vão servir como variáveis / paramêtros para meu código. Destacando as mais relevantes.
+
+3 - Visualizar as entradas e saidas de informações, usando as palavras destacadas no passo 2.
+
+4 - Montar um esquema / diagrama para ter uma primeira visão de como será o fluxo do código.
+
+5 - Criar o código com base em todos os passos acima.
+
+6 - Testar o código.
+
+7 - Refinar o código, tentando pensar em maneiras mais eficientes de executá-lo, mudando métodos, refinando nomes de variáveis...etc
