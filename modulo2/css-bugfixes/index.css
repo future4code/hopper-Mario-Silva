@@ -34,16 +34,20 @@ div>p:first-child {
 }
 
 div img {
-    background: black;
+    background: 
 }
 
 .botao-amarelo {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
     background-color: #ffaf43;
     width: 250px;
     height: 40px;
     border-radius: 5px;
     font-size: 20px;
     color: white;
+
 }
 
 .botao-amarelo:hover {
@@ -51,6 +55,7 @@ div img {
 }
 
 .container {
+    
     height: 500px;
     text-align: center;
 }
@@ -67,6 +72,7 @@ div img {
   **/
 
 #container-de-descricao {
+    
     background-color: #2274a5;
     color: white;
 }
@@ -98,6 +104,7 @@ div:last-child {
 }
 
 table {
+    text-align: center;
     width: 60%;
 }
 
@@ -110,6 +117,7 @@ td button {
 }
 
 .container-do-search {
+    
     margin-top: 20px;
     height: 100px;
 }
