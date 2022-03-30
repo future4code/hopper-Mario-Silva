@@ -39,9 +39,7 @@ div img {
 }
 
 .botao-amarelo {
-    display: block;
-    margin: auto;
-    margin-top: 100px;
+  
     background-color: #ffaf43;
     width: 250px;
     height: 40px;
@@ -116,6 +114,15 @@ td button {
     border-radius: 5px;
     color: black;
 }
+
+td button:hover {
+    background-color: #fade638f;
+    /* width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black; */
+}
+
 
 .container-do-search {
     
