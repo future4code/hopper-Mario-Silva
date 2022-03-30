@@ -117,10 +117,10 @@ td button {
 
 td button:hover {
     background-color: #fade638f;
-    /* width: 150px;
+    width: 150px;
     height: 30px;
     border-radius: 5px;
-    color: black; */
+    color: black;
 }
 
 
@@ -133,7 +133,7 @@ td button:hover {
 
 #back-button {
     background-color: white;
-    width: 100px;
+    width: 250px;
     height: 20px;
     border: 1px solid black;
     border-radius: 5px;
