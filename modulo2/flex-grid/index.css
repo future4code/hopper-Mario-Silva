@@ -1,0 +1,56 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+header
+{
+    display:flex;
+    justify-content: space-between;
+    background-color: mediumvioletred;
+    padding: 0 10px;
+    height: 50px;
+    align-items: center;
+    
+}
+
+main
+{
+   
+    height: 100vh;
+    display: flex;
+}
+
+footer
+{
+    
+    background-color: mediumvioletred;
+    
+    height: 50px;
+    text-align: center;
+    padding: 5px 5px;
+    
+}
+
+.container-menu-esquerda
+{
+    background-color:#f2d0e0 ;
+    padding: 15px 15px;
+    align-items:center; 
+    width: 30vw;
+} 
+
+
+.container
+{
+    display: flex;
+    align-items:center;
+    
+}
+
+.container > h1
+{
+    padding: 20px 20px;
+}
