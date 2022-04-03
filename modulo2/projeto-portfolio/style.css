@@ -1,7 +1,8 @@
 body {
     background-color: #f6f5f5;
-    margin-right: 0px;
-    padding: 0px;
+    margin-right: 5px;
+    padding: 5px;
+    overflow: hidden;
 }
 
 ul {
@@ -13,13 +14,13 @@ a {
 }
 
 section {
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     align-items: center;
     height: 60px;
     background-color: ffffff;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    padding: 0px 5%;
+    padding: 5px 5%;
 }
 
 
@@ -30,7 +31,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     box-shadow: 2px 2xp 12px rgba(0, 0, 0, 0.2);
     padding: 0px 5%;
 }
@@ -38,10 +39,12 @@ nav {
 nav ul {
     display: flex;
 
+
 }
 
 nav ul li a {
     margin: 30px;
+
     font-family: Arial, Helvetica, sans-serif;
     color: #505050;
     font-size: 15px;
@@ -53,11 +56,12 @@ nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(27, 2, 2);
     font-size: 22px;
+
 }
 
 .active {
-    font-weight: bold;
-    color: brown;
+    /* font-weight: bold;
+    color: brown; */
 }
 
 
@@ -66,6 +70,8 @@ nav ul li a {
     font-weight: bold;
     color: #0b167e;
     font-size: 30px;
+
+
 
 }
 
@@ -85,15 +91,14 @@ nav ul li a {
     line-height: 25px;
 }
 
-.conteudo-texto
-{
+.conteudo-texto {
     line-height: 0px;
     margin: 45px 0px 25px;
 
+
 }
 
-.conteudo-texto
-{
+.conteudo-texto {
     position: absolute;
     left: 13%;
     top: 42%;
@@ -104,14 +109,15 @@ nav ul li a {
 
 /*Estilo da imagem*/
 
-.imgbg
-{
-    height: 550px;
+.imgbg {
+    height: 500px;
     position: absolute;
-    bottom: 40px;
-    left: 80%;
+    bottom: 70px;
+    left: 90%;
     transform: translateX(-70%);
 }
+
+
 
 /* .btn1
 {
@@ -130,3 +136,156 @@ button:active
 } */
 
 /*Estilo da imagem de fundo banner*/
+
+
+
+/*Configurações aba projetos*/
+
+.projetos-imgbg {
+    height: 550px;
+    position: absolute;
+    bottom: px;
+    left: 88%;
+    transform: translateX(-70%);
+
+}
+
+.conteudo-texto-projetos p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #0b167e;
+    font-size: 45px;
+
+}
+
+.conteudo-texto-projetos p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0b167e;
+    font-size: 25px;
+
+}
+
+.conteudo-texto-projetos p:nth-child(3) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #0b167e;
+    font-size: 25px;
+    line-height: 25px;
+
+}
+
+
+.conteudo-texto-projetos p:nth-child(4) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #0b167e;
+    font-size: 45px;
+    line-height: 25px;
+
+}
+
+.conteudo-texto-projetos p:nth-child(5) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #0b167e;
+    font-size: 25px;
+    line-height: 25px;
+
+
+}
+
+
+
+
+
+.conteudo-texto-projetos {
+    line-height: 0px;
+    margin: 40px -20px 25px;
+
+
+}
+
+.conteudo-texto-projetos {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+/*Configurações aba formação*/
+
+.conteudo-texto-formacao p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #0b167e;
+    font-size: 45px;
+
+}
+
+.conteudo-texto-formacao p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0b167e;
+    font-size: 25px;
+
+}
+
+.conteudo-texto-formacao {
+    line-height: 0px;
+    margin: 40px -20px 25px;
+
+
+}
+
+.conteudo-texto-formacao {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+/*configurações aba sobre-mim*/
+
+.conteudo-texto-sobre-mim p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #0b167e;
+    font-size: 35px;
+
+}
+
+.conteudo-texto-sobre-mim p :nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0b167e;
+    font-size: 25px;
+
+}
+
+.conteudo-texto-sobre-mim {
+    /* line-height: 0px; */
+    margin: 40px -60px 25px;
+
+
+}
+
+.conteudo-texto-sobre-mim {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+/*configurações aba Contato*/
+
+
+
+.contato {
+    display: flex;
+    justify-content: center;
+
+}
